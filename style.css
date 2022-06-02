@@ -6,16 +6,18 @@ header {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	text-align: center;
+	
 	margin-top: 80px;
   width: 100%;
   overflow: auto;
+
 }
 	
 #nav li {
 	display: inline;
   padding: 10px;
   padding-right: 20px;
+ 
 }
 
 #nav a {
@@ -23,8 +25,10 @@ header {
 	font-family: Cambria, serif;
 	font-size: 24px;
 	line-height: 1.3em;
-  padding: 14px 16px;
-  width: 45%;
+  background-color: blue;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 75%;
 	color: #596365;
 }
 
@@ -34,6 +38,15 @@ header {
 	font-size: 24px;
 	line-height: 1.3em;
 	color: #000;
+}
+#featured-property p{
+ width: 800px;
+ margin-left: 350px;
+ text-align: center;
+}
+#featured-property figcaption{
+  font-size: small;
+  text-align: center;
 }
 #details
 {
